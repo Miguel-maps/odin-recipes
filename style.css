@@ -1,0 +1,38 @@
+/* Text */
+
+* {
+    font-family: "Monaco", "Courier New", sans-serif;
+    background-color: rgb(173, 243, 255);
+}
+
+.centerText {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+/* Images */
+
+img,
+.imgMain,
+.imgThumbnail {
+    height: auto;
+}
+
+.imgMain {
+    width: 500px;
+}
+
+.imgThumbnail {
+    width: 200px;
+}
+
+/* Divs and overall structure */
+
+#titles {
+    padding-bottom: 50px;
+}
+
+.recipeContainer {
+
+}
