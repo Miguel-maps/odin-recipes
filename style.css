@@ -27,6 +27,11 @@ footer {
     justify-content: center;
 }
 
+.border {
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
 .recipeContainer {
     display: flex;
     flex-direction: column;
@@ -35,8 +40,6 @@ footer {
     padding: 50px;
     margin: 10px;
     max-width: 400px;
-    border: 2px solid grey;
-    border-radius: 10px;
 }
 
 .recipeContainer:hover {
@@ -81,9 +84,33 @@ img,
 }
 
 .imgMain {
-    width: 500px;
+    width: 250px;
+    flex-shrink: 0;
 }
 
 .imgThumbnail {
     width: 200px;
+}
+
+/* Recipe specific CSS */
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 50px;
+}
+
+ul, ol{
+    padding: 50px;
+    max-width: 690px;
+}
+
+.introduction {
+    max-width: 690px;
+}
+
+ol > li {
+    margin: 20px 0;
 }
