@@ -1,5 +1,4 @@
 /* Divs and overall structure */
-
 html {
     box-sizing: border-box;
 }
@@ -99,16 +98,23 @@ img,
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin: 0 50px;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 100%;
+    min-width: 100%;
 }
 
-ul, ol{
+ul, ol, .introduction{
+    width: 100%;
+    max-width: 690px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+ul, ol {
     padding: 50px;
-    max-width: 690px;
-}
-
-.introduction {
-    max-width: 690px;
 }
 
 ol > li {
