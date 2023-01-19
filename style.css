@@ -1,4 +1,11 @@
 /* Divs and overall structure */
+@media screen and (max-width:767px) {
+    .container {
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+}
+
 html {
     box-sizing: border-box;
 }
@@ -24,6 +31,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 .border {
@@ -38,7 +47,9 @@ footer {
     align-items: center;
     padding: 50px;
     margin: 10px;
+    width: 100%;
     max-width: 400px;
+    min-width: 350px;
 }
 
 .recipeContainer:hover {
@@ -107,7 +118,6 @@ img,
 ul, ol, .introduction{
     width: 100%;
     max-width: 690px;
-    min-width: 350px;
     display: flex;
     flex-direction: column;
     
